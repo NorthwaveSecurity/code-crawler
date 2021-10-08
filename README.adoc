@@ -8,7 +8,14 @@ https://github.com/BurntSushi/ripgrep[ripgrep] for grepping, but grep can be use
 
 == Usage
 
-code-crawler <language>
+Run code crawler in the root directory of the project you want to check.
+
+`/path/to/code_crawler.sh <language>`
+
+Example:
+```
+~/git/code-crawler/code_crawler.sh dotnet
+```
 
 === Customization
 
