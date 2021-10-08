@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-mydir=${0%/*}
-grep=${GREPCMD:-rg}
+filename=$(realpath "$0")
+mydir=${filename%/*}
+grep=${GREPCMD:-rg -n}
 lang="$1"
 shift
 
