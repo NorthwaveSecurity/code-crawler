@@ -2,6 +2,8 @@
 
 https://owasp.org/www-pdf-archive/OWASP_Code_Review_Guide_v2.pdf[Code review guide]
 
+This program can be used to search source code for interesting functionality per file type.
+
 == Dependencies
 
 - https://github.com/BurntSushi/ripgrep[ripgrep] for grepping, but grep can be used as well.
